@@ -1,0 +1,14 @@
+body {
+    background-image: "C:\Users\Jenny\Desktop\Basic-Portfolio\Basic-Portfolio\assets\images\background.png"
+}
+
+.wrapper {
+    width: 960px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.h1 {
+    color: #4aaaa5;
+}
