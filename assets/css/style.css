@@ -4,6 +4,7 @@
 
 .wrapper {
     width: 960px;
+    height: 1000px;
     background-color: white;
     margin: 0 auto;
     padding: 20px;
@@ -119,21 +120,28 @@
     padding-right: 400px;
 }
 
-.portfoliobox1text {
-    position: relative;
-    background-color: #4aaaa5
-    color: white;
-    text-align: center;
-
-}
-
 .portfoliobox3 {
     float: left;
-    padding-top: 25px;
-
+    position: absolute;
+    top: 475px;
 }
 .portfoliobox4 {
     float: right;
-    padding-top: 25px;
     padding-right: 400px;
+    position: absolute;
+    left: 535px;
+    top: 475px;
+}
+
+.box1title {
+    position: relative;
+    width: 200px;
+    height: 35px;
+    margin: auto;
+    margin-top: 25%;
+    background:  #4aaaa5;
+    text-align: center;
+    color: white;
+    bottom: 100px;
+
 }
