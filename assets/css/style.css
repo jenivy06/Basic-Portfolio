@@ -128,13 +128,12 @@
     float: right;
     padding-left: 35px;
     padding-right: 28px;
-    padding-bottom: 300px;
+    padding-bottom: 200px;
     bottom: 900px;
-    line-height: 28px;
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
     top: 0 auto;
-    line-height: 25px;
+    line-height: 20px;
     overflow: auto;
     margin: auto;
     
@@ -210,10 +209,8 @@
     font-size: 20px;
 }
 
-.rotate:hover  {
-    -ms-transform: rotate(-10deg);
-    -webkit-transform: rotate(-10deg);
-    -moz-transform: rotate(-10deg);
-    -o-transform: rotate(-10deg);
-    transform: rotate(-10deg);
-  }
+.pointer {
+    cursor: pointer;
+}
+
+
